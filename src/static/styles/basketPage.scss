@@ -1,0 +1,41 @@
+.basketPage {
+  padding-bottom: 110px;
+  .basketTitle {
+    font-family: $heavy;
+    font-size: 30px;
+    line-height: 36px;
+    color: white;
+    margin: 0;
+    padding: 20px 20px 16px;
+  }
+  .pay {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background: white;
+    border-radius: 40px 40px 0 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    padding: 16px 36px 30px;
+    box-sizing: border-box;
+    padding-bottom: 110px;
+  }
+
+  .price {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 10px;
+    color: $gray;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .total {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: $bold;
+  }
+}

@@ -1,0 +1,24 @@
+@import "../../static/styles/variable.scss";
+.empty {
+  margin: 0 16px;
+  background: white;
+  padding: 16px 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  text-align: center;
+  h3 {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: $bold;
+    margin: 8px 0 10px;
+  }
+  p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .image {
+    width: 100%;
+  }
+}

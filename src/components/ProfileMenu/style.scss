@@ -1,0 +1,36 @@
+@import "../../static/styles/variable.scss";
+
+.card {
+  padding: 0 16px;
+  margin-bottom: 16px;
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: white;
+    border-radius: 10px;
+    padding: 0 16px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    .link {
+      text-decoration: none;
+      color: $black;
+      font-size: 18px;
+      padding: 21px 0;
+      display: block;
+      .icon {
+        float: right;
+        color: $orange;
+      }
+      &.phone {
+        i {
+          color: $green;
+        }
+      }
+      &.legal {
+        i {
+          color: $gray;
+        }
+      }
+    }
+  }
+}

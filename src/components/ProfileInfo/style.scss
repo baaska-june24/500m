@@ -1,0 +1,40 @@
+@import "../../static/styles/variable.scss";
+
+.profile-info {
+  padding: 0 16px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  .wrapper {
+    background: white;
+    border-radius: 45px 10px 10px 0;
+    .header {
+      background: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 45px 10px 10px 0;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+      padding: 14px 0;
+    }
+    .item {
+      text-align: center;
+      width: 100%;
+      border-right: 1px solid $border1;
+      p {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0;
+        font-family: $heavy;
+        color: $orange;
+      }
+      span {
+        font-size: 14px;
+        opacity: 0.6;
+        line-height: 17px;
+      }
+      &:last-child {
+        border: medium none;
+      }
+    }
+  }
+}

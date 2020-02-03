@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-Home_banana">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="Home_banana" data-name="Home banana" clip-path="url(#clip-Home_banana)">
+    <g id="Group_2872" data-name="Group 2872" transform="translate(-251.956 -731.644)">
+      <path id="Path_5701" data-name="Path 5701" d="M71.014,709.459V719.47a1.8,1.8,0,0,0,1.62,1.756,26.211,26.211,0,0,0,3.835.087c1.261,0,1.21-.087,1.21-.087v-8.331c0-1.061,1.547-2.209,3.21-2.209s3.442.974,3.442,2.209v8.331s-.139.087,1.1.087a30.7,30.7,0,0,0,3.883-.087,2.024,2.024,0,0,0,1.708-1.756V709.459" transform="translate(186 37.414)" fill="none" stroke="#5f636e" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_5702" data-name="Path 5702" d="M67.193,705.586l13.444-9.309s-.072-.2,1.054.663l12.5,8.645" transform="translate(186.263 38.386)" fill="none" stroke="#5f636e" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

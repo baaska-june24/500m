@@ -1,0 +1,29 @@
+@import "../../static/styles/variable.scss";
+.address_input {
+  input {
+    background: $border1;
+    border-radius: 10px;
+    border: medium none;
+    display: block;
+    width: 100%;
+    padding: 13px 10px 12px;
+    font-size: 16px;
+    line-height: 19px;
+    color: $gray;
+    box-sizing: border-box;
+    height: 40px;
+  }
+  input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px $orange;
+  }
+}
+.address_box {
+  background: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  display: block;
+  width: 100%;
+}

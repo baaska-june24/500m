@@ -1,0 +1,80 @@
+@import "../../static/styles/variable.scss";
+.home_icon {
+  width: 30px;
+  height: 26px;
+  margin-bottom: -10px;
+  background-color: $gray;
+  -webkit-mask: url(../../static/img/svg/home.svg) no-repeat center;
+  mask: url(../../static/img/svg/home.svg) no-repeat center;
+  margin: 0 auto 4px;
+}
+.basket_icon {
+  width: 30px;
+  height: 26px;
+  margin-bottom: -10px;
+  background-color: $gray;
+  -webkit-mask: url(../../static/img/svg/cart.svg) no-repeat center;
+  mask: url(../../static/img/svg/cart.svg) no-repeat center;
+  margin: 0 auto 4px;
+}
+.profile_icon {
+  width: 30px;
+  height: 26px;
+  margin-bottom: -10px;
+  background-color: $gray;
+  -webkit-mask: url(../../static/img/svg/user.svg) no-repeat center;
+  mask: url(../../static/img/svg/user.svg) no-repeat center;
+  margin: 0 auto 4px;
+}
+
+.navbar {
+  background: rgba(250, 246, 246, 1);
+  position: fixed;
+  bottom: 0;
+  padding: 5px 0 6px;
+  width: 100%;
+  left: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
+  // z-index: 8100;
+  .nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    .navitem {
+      font-size: 10px;
+      line-height: 12px;
+      width: 100%;
+      text-align: center;
+      a {
+        color: $gray;
+        text-decoration: none;
+        padding: 9px 0;
+        display: block;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+      }
+    }
+
+    .active {
+      color: $orange !important;
+      .icon {
+        background: $orange;
+      }
+    }
+    .cartcount {
+      color: $orange;
+      font-size: 12px;
+      line-height: 16px;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      font-weight: 600;
+      padding: 9px 0px 0 4px;
+    }
+  }
+}

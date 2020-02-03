@@ -1,0 +1,55 @@
+@import "../../static/styles/variable.scss";
+
+.ant-radio-checked .ant-radio-inner {
+  border-color: $orange;
+  &::after {
+    background: $orange;
+  }
+}
+
+.addres-List {
+  background: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  padding: 15px 16px 12px;
+  margin: 10px 0;
+  display: block;
+  width: 100%;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .title {
+    font-family: $heavy;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 0 4px;
+  }
+  .description {
+    margin: 0;
+    color: $gray;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .logo {
+    width: 60px;
+    height: 60px;
+    border: 1px solid $border;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+
+  .editicon {
+    width: 24px;
+    height: 24px;
+    color: $grey;
+    padding: 0 0 0 10px;
+    font-size: 18px;
+  }
+}

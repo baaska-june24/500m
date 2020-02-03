@@ -1,0 +1,45 @@
+@import "../../static/styles/variable.scss";
+.ant-modal-wrap {
+  top: -30px;
+}
+.ant-modal-body {
+  padding: 10px;
+}
+.ant-modal-content {
+  background: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.addressmodal {
+  margin-top: 0px;
+  text-align: left;
+  background: white !important;
+  padding: 30px 20px 20px 20px;
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  height: auto;
+  bottom: 0;
+
+  .close {
+    position: absolute;
+    top: 0px;
+    margin-top: -15px;
+    right: -10px;
+    background: linear-gradient(
+      to right,
+      rgba(253, 160, 38, 1) 0%,
+      rgba(255, 84, 46, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fda026', endColorstr='#ff542e', GradientType=1 );
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    color: white;
+    font-size: 28px;
+    .icon {
+      margin-top: 2px;
+    }
+  }
+}

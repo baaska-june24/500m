@@ -1,0 +1,62 @@
+@import "../../static/styles/variable.scss";
+.orderitem {
+  margin-bottom: 10px;
+  align-items: center;
+  margin: 0 16px 10px;
+  .info {
+    background: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: 20px;
+    padding: 20px 10px 20px 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .remove {
+      width: 25px;
+      height: 25px;
+      text-align: center;
+      line-height: 25px;
+      border-radius: 50%;
+      color: $gray;
+      font-size: 16px;
+      background: $border;
+    }
+    .imagea {
+      position: absolute;
+      left: -25px;
+      margin-top: -10px;
+
+      .image {
+        // top: 50%;
+        // transform: translateY(-50%);
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        border: 1px solid orange;
+      }
+    }
+
+    .foodname {
+      font-size: 16px;
+      line-height: 19px;
+      margin: 0;
+      font-weight: 600;
+    }
+    .flex {
+      display: flex;
+      align-items: center;
+      p {
+        margin: 0;
+        white-space: nowrap;
+        color: $orange;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        margin-right: 10px;
+      }
+    }
+  }
+}

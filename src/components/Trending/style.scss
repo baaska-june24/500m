@@ -1,0 +1,71 @@
+@import "../../static/styles/variable.scss";
+
+.trendTitle {
+  font-family: $heavy;
+  font-size: 30px;
+  line-height: 36px;
+  color: white;
+  margin: 0 0 10px;
+  padding: 20px 20px 0;
+}
+.trending {
+  padding: 0 20px;
+  padding-bottom: 23px;
+  flex-wrap: row wrap;
+  width: 100%;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  .list {
+    display: flex;
+    justify-content: space-between;
+    .item {
+      text-align: center;
+      width: 100%;
+      margin-right: 16px;
+      max-width: 140px;
+      &:last-child {
+        padding-right: 20px;
+        margin-right: 0;
+      }
+      .imagea {
+        width: 140px;
+      }
+      .image {
+        border-radius: 50%;
+        width: 140px;
+        height: 140px;
+        border: 6px solid white;
+        text-align: center;
+        box-shadow: 0 8px 15px #e7eaf0;
+        display: block;
+        margin: 0 auto 8px;
+        box-sizing: border-box;
+        z-index: -1;
+      }
+
+      .price {
+        color: $green;
+        font-family: $bold;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: bold;
+        margin: 4px 0;
+        display: flex;
+        justify-content: center;
+
+        .icon {
+          color: $orange1;
+          border: 1px solid $orange1;
+          border-radius: 50%;
+          margin-left: 8px;
+          width: 20px;
+          height: 20px;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

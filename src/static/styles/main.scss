@@ -1,0 +1,65 @@
+@import "./variable.scss";
+@import "./basketPage.scss";
+@import "./checkOutPage.scss";
+
+//Зургийн харьцааг зохицуулна
+[style*="--aspect-ratio"] > :first-child {
+  width: 100%;
+}
+[style*="--aspect-ratio"] > img {
+  height: auto;
+}
+@supports (--custom: property) {
+  [style*="--aspect-ratio"] {
+    position: relative;
+  }
+  [style*="--aspect-ratio"]::before {
+    height: 0;
+    content: "";
+    display: block;
+    padding-bottom: calc(100% / (var(--aspect-ratio)));
+  }
+  [style*="--aspect-ratio"] > :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+body {
+  background: $mainbg;
+}
+.wrapper {
+  max-width: $maxwidth;
+  margin: 0 auto;
+  font-family: $font;
+  font: $font;
+}
+
+.section_title {
+  padding: 0 20px;
+  font-family: $heavy;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 6px 0 16px;
+  &.small {
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 36px;
+  }
+}
+
+.subtitle {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 20px 0 10px 0;
+  font-family: $bold;
+}
+
+.loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

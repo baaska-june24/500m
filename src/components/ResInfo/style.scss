@@ -1,0 +1,75 @@
+@import "../../static/styles/variable.scss";
+.restaurantbox {
+  margin-bottom: 3px;
+  margin-top: -39px;
+  position: relative;
+  z-index: 2;
+  .box {
+    background: white;
+    padding: 10px 16px 12px;
+    // box-shadow: 0 0 6px rgba(0,0,0,0.16);
+    border-radius: 40px 0 40px 0;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    align-items: center;
+    border-bottom: 1px dotted $border;
+  }
+  .title {
+    font-family: $heavy;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 0 4px;
+  }
+  .description {
+    margin: 0;
+    color: $gray;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logoa {
+    width: 60px;
+    margin-right: 12px;
+  }
+  .logo {
+    width: 60px;
+    height: 60px;
+    border: 1px solid $border;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  .fav {
+    color: $gray;
+    font-size: 30px;
+  }
+  .info {
+    font-size: 14px;
+    padding: 10px 0;
+
+    .general {
+      line-height: 24px;
+      margin-bottom: 10px;
+    }
+    a {
+      color: $gray;
+    }
+    .icon {
+      color: $orange;
+      background: rgba(252, 102, 32, 0.4);
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 12px;
+      margin-right: 8px;
+    }
+  }
+}

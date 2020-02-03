@@ -1,0 +1,45 @@
+@import "../../static/styles/variable.scss";
+.quantity {
+  border: 1px solid $border1;
+  border-radius: 23px;
+  padding: 2px;
+  display: inline-block;
+  white-space: nowrap;
+  .icon {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background: rgba(252, 102, 32, 0.1);
+    border-radius: 50%;
+    color: $orange;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+  }
+  .disabled {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background: #999;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+  }
+  .number {
+    color: $orange;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: $bold;
+    margin: 0 10px;
+    margin-top: -5px;
+    width: 19px;
+    text-align: center;
+    display: inline-block;
+  }
+}

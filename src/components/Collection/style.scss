@@ -1,0 +1,84 @@
+@import "../../static/styles/variable.scss";
+
+.collection {
+  padding: 20px 0 0;
+
+  .list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: row wrap;
+    width: 100%;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    padding: 0 20px;
+
+    .item {
+      text-align: center;
+      width: 100%;
+      margin-right: 16px;
+      max-width: 180px;
+
+      .info {
+        border-radius: 40px 10px 40px 0;
+        position: relative;
+        overflow: hidden;
+        .price {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          left: 0;
+          font-family: $bold;
+          color: white;
+          text-align: center;
+          line-height: 40px;
+          background: rgba(0, 127, 14, 0.6);
+          margin: 0;
+          border-radius: 40px 10px 40px 0;
+          font-size: 18px;
+        }
+        .image {
+          width: 180px;
+          height: 180px;
+          display: block;
+        }
+        .imagea {
+          width: 180px;
+        }
+      }
+      .icon_add {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        border-radius: 15px;
+        color: $orange;
+        font-size: 26px;
+        background: rgba(255, 255, 255, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+      }
+      .name {
+        padding: 40px 15px 0;
+        border-radius: 0 0 40px 10px;
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: -40px;
+        text-align: center;
+        color: $black;
+        font-weight: normal;
+        line-height: 40px;
+        height: 80px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: pre;
+        background: white;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

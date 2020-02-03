@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-Cart_banana">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="Cart_banana" data-name="Cart banana" clip-path="url(#clip-Cart_banana)">
+    <g id="Group_1049" data-name="Group 1049" transform="translate(-172 -2047)">
+      <g id="shopping-cart_2_" data-name="shopping-cart (2)" transform="translate(173 2050)">
+        <ellipse id="Ellipse_1152" data-name="Ellipse 1152" cx="1.076" cy="1.143" rx="1.076" ry="1.143" transform="translate(8.534 21.714)" fill="#5f636e" stroke="#5f636e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <ellipse id="Ellipse_1153" data-name="Ellipse 1153" cx="1.076" cy="1.143" rx="1.076" ry="1.143" transform="translate(20.373 21.714)" fill="#5f636e" stroke="#5f636e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_5592" data-name="Path 5592" d="M1,1H5.727L8.895,16.3a2.347,2.347,0,0,0,2.364,1.84H22.745a2.347,2.347,0,0,0,2.364-1.84L27,6.714" transform="translate(-1 -1)" fill="none" stroke="#5f636e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
